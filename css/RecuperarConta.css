@@ -1,0 +1,90 @@
+/* ============================
+ESTILO GENERAL
+=============================== */
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f9;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 60px;
+    margin: 0;
+}
+
+/* ============================
+CONTENEDOR PRINCIPAL
+=============================== */
+
+.contenedor {
+    width: 350px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+
+/* ============================
+ENCABEZADO AZUL
+=============================== */
+
+.encabezado {
+    background: #003366;
+    color: white;
+    padding: 18px;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* ============================
+FORMULARIO
+=============================== */
+
+form {
+    padding: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 15px;
+    box-sizing: border-box;
+    margin-top: -20px;
+}
+
+/* ============================
+BOTONES
+=============================== */
+
+button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    background: #003366;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+button:hover {
+    background: #002244;
+}
+
+/* ============================
+TEXTOS
+=============================== */
+
+.mensaje_recuperar{
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+}
+
+

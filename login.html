@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesión</title>
+    <link rel="stylesheet" href="css/estilos-login-registro.css">
+</head>
+
+<body>
+
+    <div class="contenedor">
+
+        <div class="encabezado">Iniciar Sesión</div>
+
+        <form id="formLogin">
+
+            <input type="email" id="loginCorreo" placeholder="Correo electrónico" required>
+
+            <input type="password" id="password" placeholder="Contraseña" required>
+            <button type="button" onclick="mostrarPassword()" class="btn-view-contraseña">
+                Mostrar contraseña
+            </button>
+            <button type="submit">Iniciar sesión</button>
+            
+        </form>
+        <p class="mensaje">
+            <a href="RecuperarContraseña.html">¿Olvido Contraseña?</a>
+        </p>
+
+        <p class="mensaje">
+            ¿No tienes una cuenta? <a href="registro.html">Regístrate</a>
+        </p>
+        <p class="mensaje">
+            <a href="index.html">Pagina Principal</a>
+        </p>
+    </div>
+</body>
+
+</html>
